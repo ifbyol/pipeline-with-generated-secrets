@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: checkout
-      uses: actions/checkout@1.13.10
+      uses: actions/checkout@master
 
     - name: Login
       uses: okteto/login@1.14.1
