@@ -21,4 +21,5 @@ jobs:
         NAME: ${{ secrets.NAME }}
       with:
         namespace: ifbyol
+        name: test
         variables: "MY_NAME=$NAME"
