@@ -22,4 +22,4 @@ jobs:
       with:
         namespace: ifbyol
         name: test
-        variables: "MY_NAME=$NAME"
+        variables: "MY_NAME=github"
